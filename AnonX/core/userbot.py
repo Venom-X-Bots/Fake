@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DevilsHeavenMF")
-                await self.three.join_chat("FallenAssociation")
+                await self.three.join_chat("BotBugs")
+                await self.three.join_chat("LibGnu")
             except:
                 pass
             assistants.append(3)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DevilsHeavenMF")
-                await self.four.join_chat("FallenAssociation")
+                await self.four.join_chat("BotBugs")
+                await self.four.join_chat("LibGnu")
             except:
                 pass
             assistants.append(4)
